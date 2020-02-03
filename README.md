@@ -9,13 +9,13 @@ The scripts are tested upon a CentOS 8 distro, the required node.js package is p
 ## Usage
 
 ### Startup
-*systemctl start tiddlyserver.service
+*systemctl start tiddlyserver.service*
 
 ### Show status
-*systemctl status tiddlyserver.service
+*systemctl status tiddlyserver.service*
 
 ### Stop
-*systemctl stop tiddlyserver.service
+*systemctl stop tiddlyserver.service*
 
 ### Startup at boot
-*systemctl enable tiddlyserver.service
+*systemctl enable tiddlyserver.service*
