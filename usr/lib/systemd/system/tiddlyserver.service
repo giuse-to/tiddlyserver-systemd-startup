@@ -1,0 +1,9 @@
+[Unit]
+Description=A tiddly server systemd service
+
+[Service]
+Type=simple
+ExecStart=/bin/sh /usr/bin/tiddlyrun.sh
+
+[Install]
+WantedBy=multi-user.target
